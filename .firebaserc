@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "data-base1-8cf55"
+  },
+  "targets": {
+    "data-base1-8cf55": {
+      "hosting": {
+        "person-list-services-1.1": [
+          "data-base1-8cf55"
+        ]
+      }
+    }
+  }
+}

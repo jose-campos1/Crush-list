@@ -1,0 +1,16 @@
+
+    <div style="text-align: center">
+        <button style="cursor: pointer" (click)="irAgregar()" class="button1">✅</button>
+      </div>
+      <div class="box centrado">
+      <h1>🔙</h1>
+    </div>
+<div class="box">
+<app-person 
+*ngFor="let personComponent of persons; let i = index"
+[person]="personComponent"
+[i]="i">
+</app-person>
+</div>
+
+<router-outlet></router-outlet>
