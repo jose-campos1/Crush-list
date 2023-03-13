@@ -1,7 +1,5 @@
 import { Component, Input , Injectable, OnInit} from '@angular/core';
-import { LogginService } from '../../logginService.service';
 import { Person } from '../../person.model';
-import { PersonService } from '../../personService.service';
 
 
 @Component({

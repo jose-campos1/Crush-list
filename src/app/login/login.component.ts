@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Auth } from '@angular/fire/auth';
 import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
 import { LogginServiceAuth } from './logginService.Auth';
 
 @Component({
@@ -11,7 +11,8 @@ import { LogginServiceAuth } from './logginService.Auth';
 export class LoginComponent {
 
   constructor(private LogginService:LogginServiceAuth,
-              private auth:Auth){}
+              private router: Router)
+              {}
 
 onLogin(form:NgForm){
   console.log('Dentro de login ✔')
@@ -20,5 +21,13 @@ onLogin(form:NgForm){
   this.LogginService.login(email,password);
    
  }
+
+ toRegister(){
+  this.router.navigate(['/register'])
+ }
+
 }
+
+
+
 

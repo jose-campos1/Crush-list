@@ -5,6 +5,7 @@ import { LoginComponent } from './login/login.component';
 import { LogginGuardService } from './login/loginGuardService.service';
 import { FormComponent } from './persons/form/form.component';
 import { PersonsComponent } from './persons/persons.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   {path: '' , component: PersonsComponent, canActivate: [LogginGuardService] },
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path: ':id', component: FormComponent }
   ]},
   {path: 'login',component: LoginComponent},
+  {path:'register', component: RegisterComponent},
   {path: '**' , component: ErrorComponent},
 ]
 

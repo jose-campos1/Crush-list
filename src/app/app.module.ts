@@ -20,6 +20,7 @@ import { PersonsComponent } from './persons/persons.component';
 import { ErrorComponent } from './error/error.component';
 import { LoginComponent } from './login/login.component';
 import { LogginServiceAuth } from './login/logginService.Auth';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { LogginServiceAuth } from './login/logginService.Auth';
     PersonsComponent,
     ErrorComponent,
     LoginComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,

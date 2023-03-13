@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { Auth, signInWithEmailAndPassword } from '@angular/fire/auth';
+import { createUserWithEmailAndPassword } from 'firebase/auth';
 
 @Injectable()
 export class LogginServiceAuth {
@@ -33,4 +34,9 @@ export class LogginServiceAuth {
       this.router.navigate(['/login'])
     }).catch(err => console.log('Error de logout' + err))
   }
+  
+  register(email:string,password:string){
+    return createUserWithEmailAndPassword(this.auth, email , password)
+  }
+
 }
