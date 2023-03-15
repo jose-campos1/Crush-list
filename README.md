@@ -4,6 +4,6 @@
   
 <h4 align="center">You can register on the list and add yours, it's simple to do 😉</h4>
 
-<p align= "center" >it was not designed to be a crush-list but its the first use as a test.</p>
+<p align= "center" >**it was not designed to be a crush-list but its the first use as a test**</p>
 
 
