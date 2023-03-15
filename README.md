@@ -6,4 +6,6 @@
 
 <p align= "center" >**it was not designed to be a crush-list but its the first use as a test**</p>
 
+<p align= "center" >**Remember to check the console**</p>
+
 
