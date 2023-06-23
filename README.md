@@ -2,13 +2,30 @@
 ![m](https://github.com/jose-campos1/Crush-list/assets/106594685/20f7e27c-9ba2-4953-a3c5-b09099b777d1)
 
 
-# Crush-listAPP
+## Utility
 
-This project has a firebase real time database that allows to write and read, data add or delete it on real time
+This project contains has a firebase real time database that allows to write and read, data add or delete it on real time
+
+## Index
+
+ * [Utility](#utility)
+     * [Framework](#framework)
+      * [Build and deploy](#build)
+      * [Concepts](#concepts)
+      * [Note](#note)
+      * [Use](#use)
+      * [Documentation](#documentation)
+      * [Updates](#updates)
+
+## Framework
 
 It's made in Angular and it's puiblished on [githubpages](https://jose-campos1.github.io/Crush-list/dist/login) 
 
+## Build
+
 It happens to be some specific data management at the [build level](https://github.com/jose-campos1/Crush-list/blob/master/package.json) check merge and deploy at the bottom...
+
+## Concepts
 
 Concepts:
 The Angular project: It's a Real time app that gives acces the user to a dashboard where it can add people or delete it from a list.
@@ -26,10 +43,14 @@ The Angular project: It's a Real time app that gives acces the user to a dashboa
 [Github Actions](https://github.com/marketplace/actions/github-action-for-firebase)
 <br>
 [Build and deploy on GitHub Actions BETA database](https://github.com/features/actions) 
+
+## Note
  
 note: As i have to keep working on other projets i will be adding the missing documentation hoping to help someone with this same issues, because its not clear how to make work a github page with angular firebase database capable of login, register, and add data to the web from here.
 
-You can register on the list and add yours, it's simple to do 😉
+## Use
+
+You can register on the list and add yours, it's simple to do
 
 ## Documentation 
 [Github Actions](https://github.com/marketplace/actions/github-action-for-firebase)
@@ -39,6 +60,11 @@ You can register on the list and add yours, it's simple to do 😉
 [Hosting And Merge](https://github.com/jose-campos1/Crush-list/tree/master/.github/workflows)
 <br>
 [Objects](https://github.com/jose-campos1/Crush-list/tree/master/src/app)
+
+
+## Updates
+
+The project will keep being op development
 
 ## Badges
 
