@@ -25,4 +25,6 @@ You can register on the list and add yours, it's simple to do 😉
 
 ## Documentation 
 [Github Actions](https://github.com/marketplace/actions/github-action-for-firebase)
+[Firebase Realtime Database](https://firebase.google.com/docs/hosting/quickstart)
+
 
