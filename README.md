@@ -17,7 +17,7 @@ The Angular project: It's a Real time app that gives acces the user to a dashboa
 <br>
 [Cli and ngh Deploy commands](https://www.pluralsight.com/guides/deploying-using-the-cli-in-a)
 <br>
-[firebase deploy](https://firebase.google.com/docs/hosting#:~:text=Firebase%20Hosting%20is%20production%2Dgrade,CDN%20(content%20delivery%20network).), 
+[firebase deploy](https://firebase.google.com/docs/hosting#:~:text=Firebase%20Hosting%20is%20production%2Dgrade,CDN%20(content%20delivery%20network).) 
 <br>
 [Creation of Tokens](https://github.com/jose-campos1/Crush-list/blob/master/src/app/data.services.ts)
 <br>
